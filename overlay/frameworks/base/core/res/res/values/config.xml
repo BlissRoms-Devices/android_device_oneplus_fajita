@@ -406,4 +406,6 @@
          in its natural orientation. If zero, the value of rounded_corner_radius is used. -->
     <dimen name="rounded_corner_radius_bottom">100px</dimen>
     
+    <!-- Fod pressed state color -->
+    <integer name="config_pressed_fod_icon">1</integer>
 </resources>
