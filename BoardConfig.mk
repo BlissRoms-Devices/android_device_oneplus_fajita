@@ -32,7 +32,7 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 TARGET_KERNEL_CONFIG := kronic_defconfig
 TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
-TARGET_KERNEL_CLANG_VERSION := 6443078
+TARGET_KERNEL_CLANG_VERSION := 6778096
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
