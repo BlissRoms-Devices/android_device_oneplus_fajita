@@ -30,7 +30,7 @@ DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := kronic_defconfig
-TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := $(DEVICE_PATH)/ramdisk-recovery.cpio
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CLANG_VERSION := 6778096
 
