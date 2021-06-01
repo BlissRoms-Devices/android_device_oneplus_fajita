@@ -21,7 +21,7 @@
    "remote":      "github",
    "repository":  "Evolution-X-Devices/device_oneplus_common",
    "target_path": "device/oneplus/common",
-   "revision":    "ten"
+   "revision":    "elle"
   },
    {
    "remote":      "github",
