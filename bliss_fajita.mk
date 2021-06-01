@@ -26,6 +26,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# FOD animations
+TARGET_WANTS_FOD_ANIMATIONS := true
+
 PRODUCT_NAME := bliss_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
